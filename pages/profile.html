@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/profile/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <div class="container">
+      <div class="header__row">
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <div class="header__search search">
+          <input type="text" class="search_input" placeholder="Название или номер ГОСТ-а">
+          <a href="#" class="search_button">
+            <img src="../images/main/header/searchicon.png" alt="" class="search__icon">
+          </a>
+        </div>
+        <div class="header__buttons">
+          <a href="#" class="header__register">Регистрация</a>
+          <a href="#" class="header__auth">Войти</a>
+        </div>
+        <div class="header__authed authed">
+
+          <div class="authed__profile">
+            <a href="#" class="authed__image">
+              <img src="../images/main/header/authed-profile.png" alt="">
+            </a>
+            <div class="authed__info">
+              <div class="authed__name">Мохирева Арина Олеговна</div>
+              <div class="authed__mail">mohireva.ao@edu.spbstu.ru</div>
+            </div>
+          </div>
+
+          <a href="#" class="authed__exit">
+            <img src="../images/main/header/exit.png" alt="">
+          </a>
+
+        </div>
+        <a href="#" class="header__profile">
+          <img src="../images/main/header/profile.png" alt="" class="profile__icon">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+      <div class="container">
+          <div class="content__top top">
+              <div class="top__title">Личный кабинет</div>
+              <div class="top__flex">
+                  <span class="top__arrow">←</span>
+                  <a href="" class="top__back">Главная</a>
+              </div>
+          </div>
+          <hr>
+          <div class="content__profile profile">
+              <aside class="profile__sidebar sidebar">
+                  <div class="sidebar__item">
+                      <a href="" class="sidebar__image">
+                          <img src="../images/profile/profile.png" alt="">
+                      </a>
+                      <a href="" class="sidebar_text">Редактировать профиль</a>
+                  </div>
+                  <div class="sidebar__item">
+                      <a href="" class="sidebar__image">
+                          <img src="../images/profile/history.png" alt="">
+                      </a>
+                      <a href="" class="sidebar_text">История <span>поиска</span></a>
+                  </div>
+                  <div class="sidebar__item">
+                      <a href="" class="sidebar__image">
+                          <img src="../images/profile/favorite.png" alt="">
+                      </a>
+                      <a href="" class="sidebar_text">Избранное</a>
+                  </div>
+                  <div class="sidebar__item">
+                      <a href="" class="sidebar__image">
+                          <img src="../images/profile/bookmarks.png" alt="">
+                      </a>
+                      <a href="" class="sidebar_text">Закладки</a>
+                  </div>
+                  <div class="sidebar__item">
+                      <a href="" class="sidebar__image">
+                          <img src="../images/profile/project.png" alt="">
+                      </a>
+                      <a href="" class="sidebar_text">Папки <span>проектов</span></a>
+                  </div>
+              </aside>
+              <div class="profile__panels panels">
+                  <div class="panels__edit edit">
+                      <p class="profile__title">Редактировать профиль</p>
+                      <div class="edit__item">
+                          <p class="edit__text">Имя</p>
+                          <input type="text" class="edit__input">
+                      </div>
+                      <div class="edit__item">
+                          <p class="edit__text">Эл. почта</p>
+                          <input type="text" class="edit__input">
+                      </div>
+                      <div class="edit__item">
+                          <p class="edit__text">Телефон</p>
+                          <input type="text" class="edit__input">
+                      </div>
+                      <div class="edit__item">
+                          <p class="edit__text">Пароль</p>
+                          <input type="text" class="edit__input">
+                      </div>
+                      <a href="" class="edit__button">Сохранить изменения</a>
+                  </div>
+                  <div class="panels__history history">
+                      <div class="history__top">
+                          <div class="history__title">История поиска</div>
+                          <p class="history__counter">4 запроса</p>
+                          <a href="" class="history__clear">Очистить историю</a>
+                          <a href="" class="history__clear-icon">
+                              <img src="../images/profile/clear.png" alt="">
+                          </a>
+                      </div>
+                      <div class="history__item">
+                          <p class="history__query">Выполнен поиск по запросу: <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dignissimos distinctio explicabo fuga inventore laudantium nihil quas recusandae tempora!</span></p>
+                          <div class="history__delete">✖</div>
+                          <div class="history__flex">
+                              <p class="history__docs">36 документов</p>
+                              <p class="history__date">15.02.2023</p>
+                          </div>
+                      </div>
+                      <div class="history__item">
+                          <p class="history__query">Выполнен поиск по запросу: <span>высотное здание</span></p>
+                          <div class="history__delete">✖</div>
+                          <div class="history__flex">
+                              <p class="history__docs">36 документов</p>
+                              <p class="history__date">15.02.2023</p>
+                          </div>
+                      </div>
+                      <div class="history__item">
+                          <p class="history__query">Выполнен поиск по запросу: <span>высотное здание</span></p>
+                          <div class="history__delete">✖</div>
+                          <div class="history__flex">
+                              <p class="history__docs">36 документов</p>
+                              <p class="history__date">15.02.2023</p>
+                          </div>
+                      </div>
+                      <div class="history__item">
+                          <p class="history__query">Выполнен поиск по запросу: <span>высотное здание</span></p>
+                          <div class="history__delete">✖</div>
+                          <div class="history__flex">
+                              <p class="history__docs">36 документов</p>
+                              <p class="history__date">15.02.2023</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panels__favorite favorite">
+                      <div class="favorite__top">
+                          <div class="favorite__title">Избранное</div>
+                          <p class="favorite__counter">15 документов</p>
+                          <a href="" class="favorite__clear">Очистить</a>
+                          <a href="" class="favorite__clear-icon">
+                              <img src="../images/profile/clear.png" alt="">
+                          </a>
+                      </div>
+                      <div class="favorite__item">
+                          <div class="favorite__doc">Свод правил СП 251.1325800.2016</div>
+                          <a href="" class="favorite__delete">✖</a>
+                          <div class="favorite__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                      </div>
+                      <div class="favorite__item">
+                          <div class="favorite__doc">Свод правил СП 251.1325800.2016</div>
+                          <a href="" class="favorite__delete">✖</a>
+                          <div class="favorite__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                      </div>
+                      <div class="favorite__item">
+                          <div class="favorite__doc">Свод правил СП 251.1325800.2016</div>
+                          <a href="" class="favorite__delete">✖</a>
+                          <div class="favorite__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                      </div>
+
+                  </div>
+                  <div class="panels__bookmarks bookmarks">
+                      <div class="bookmarks__top">
+                          <div class="bookmarks__title">Закладки</div>
+                          <p class="bookmarks__counter">5 документов</p>
+                          <a href="" class="bookmarks__clear">Очистить</a>
+                          <a href="" class="bookmarks__clear-icon">
+                              <img src="../images/profile/clear.png" alt="">
+                          </a>
+                      </div>
+
+                      <div class="bookmarks__item">
+                          <div class="bookmarks__doc">Свод правил СП 251.1325800.2016</div>
+                          <div class="bookmarks__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                          <div class="bookmarks__quantity">4 закладок</div>
+                          <a href="" class="bookmarks__expand">
+                              <span></span>
+                          </a>
+                      </div>
+                      <div class="bookmarks__item">
+                          <div class="bookmarks__doc">СНиП II-Л.4-62</div>
+                          <div class="bookmarks__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, optio possimus. Amet blanditiis consequuntur doloribus, ducimus eligendi eum id libero magnam maiores quibusdam repudiandae rerum sit unde? Accusamus, assumenda ducimus esse facilis ipsum necessitatibus non porro quo quos sunt! Ratione.</div>
+                          <div class="bookmarks__quantity">4 закладок</div>
+                          <a href="" class="bookmarks__expand">
+                              <span></span>
+                          </a>
+                      </div>
+
+                      <div class="bookmarks__subitem subitem">
+                          <div class="subitem__doc">Свод правил СП 251.1325800.2016</div>
+                          <a href="" class="subitem__delete">✖</a>
+                          <div class="subitem__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                          <div class="subitem__content">“Расчетная площадь вестибюля определяется суммарной площадью по 7.2.15.1 с учетом дополнительной площади, равной сумме площадей рабочей зоны турникетов, зоны ожидания родителей”</div>
+                      </div>
+
+
+                  </div>
+                  <div class="panels__projects projects">
+                      <div class="projects__top">
+                          <div class="projects__title">Папки проектов</div>
+                          <p class="projects__counter">количество: 4</p>
+                          <a href="" class="projects__clear">+</a>
+                      </div>
+
+                      <div class="projects__folders">
+                          <div class="projects__name">Общая папка</div>
+                          <div class="projects__quantity">4 документов</div>
+                          <a href="" class="projects__expand">
+                              <span></span>
+                          </a>
+                      </div>
+
+                      <div class="projects__content">
+                          <div class="projects__doc">Свод правил СП 251.1325800.2016</div>
+                          <a href="" class="projects__delete">✖</a>
+                          <div class="projects__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                          <div class="projects__info">“Расчетная площадь вестибюля определяется суммарной площадью по 7.2.15.1 с учетом дополнительной площади, равной сумме площадей рабочей зоны турникетов, зоны ожидания родителей”</div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+  <div class="footer">
+    <div class="footer__flex">
+       <a href="" class="footer__link">Контакты</a>
+      <a href="" class="footer__link">Вход</a>
+      <a href="" class="footer__link">Регистрация</a>
+      <a href="" class="footer__link">О нас</a>
+      <a href="" class="footer__link">К фильтрам</a>
+      <a href="" class="footer__link">Обратная связь</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

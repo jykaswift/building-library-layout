@@ -1,0 +1,146 @@
+@import "../common/header";
+@import "../libs/nullstyle";
+@import "../common/footer";
+@import "components/outcome";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  flex: 1 1 auto;
+  background-color: #F0F1F3;
+}
+
+.content__find {
+  font-weight: 300;
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.find__side-menu {
+  font-family: 'Inter', sans-serif;
+  border: 1px solid blue;
+  flex-basis: 360px;
+  flex-shrink: 0;
+}
+
+.side-menu__filters {
+  position: relative;
+  background-color: #ffffff;
+  padding: 0 30px 0 30px ;
+}
+
+.side-menu__toc1 {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  background-color: #4BD095;
+  border-radius: 0 10px 0 0;
+  top: -50px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+}
+
+.side-menu__title {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 30px 0 15px 0;
+}
+
+.side-menu__select {
+  border: 2px solid #339380;
+  border-radius: 10px;
+}
+
+.side-menu__calculate {
+  background-color: #ffffff;
+}
+
+.side-menu__toc2 {
+}
+
+.side-menu__input {
+}
+
+.side-menu__button {
+}
+
+.side-menu__text {
+}
+
+.side-menu__bottom {
+}
+
+.side-menu__save {
+}
+
+.side-menu__search {
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 959px) {
+  .container {
+    max-width: 580px;
+  }
+
+  .find__side-menu {
+    display: none;
+  }
+
+  .content__find {
+    margin-top: 104px;
+
+  }
+
+}
+
+@media (max-width: 639px) {
+  .container {
+    max-width: 430px;
+  }
+
+  .content__find {
+    margin-top: 60px;
+
+  }
+
+}
+
+@media (max-width: 479px) {
+  .container {
+    max-width: 280px;
+  }
+
+  .content__find {
+    margin-top: 30px;
+
+  }
+
+
+}
+

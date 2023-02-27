@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/main/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__search search">
+                    <input type="text" class="search_input" placeholder="Название или номер ГОСТ-а">
+                    <a href="#" class="search_button">
+                        <img src="../images/main/header/searchicon.png" alt="" class="search__icon">
+                    </a>
+                </div>
+                <div class="header__buttons">
+                    <a href="#" class="header__register">Регистрация</a>
+                    <a href="#" class="header__auth">Войти</a>
+                </div>
+                <div class="header__authed authed">
+
+                    <div class="authed__profile">
+                        <a href="#" class="authed__image">
+                            <img src="../images/main/header/authed-profile.png" alt="">
+                        </a>
+                        <div class="authed__info">
+                            <div class="authed__name">Мохирева Арина Олеговна</div>
+                            <div class="authed__mail">mohireva.ao@edu.spbstu.ru</div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="authed__exit">
+                        <img src="../images/main/header/exit.png" alt="">
+                    </a>
+
+                </div>
+                <a href="#" class="header__profile">
+                    <img src="../images/main/header/profile.png" alt="" class="profile__icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="backContainer">
+        <div class="back-image">
+            <img src="../images/main/background/favorite-1.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/share-1.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/save-1.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/bookmark-1.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/search-1.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/create-1.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/create-2.png" alt="">
+        </div>
+        <div class="back-image">
+            <img src="../images/main/background/favorite-2.png" alt="">
+        </div>
+    </div>
+    <div class="content">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__line"></li>
+                <li>
+                    <a href=""  id="menu__main" class="menu__item">Главная</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">О нас</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">К фильрам</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Расчет</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Регистрация</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Войти</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">История поиска</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Папки проектов</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Избранное</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Закладки</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Контакты</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Обратная связь</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Пользовательское соглашение</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Политика конфиденциальности</a>
+                </li>
+                <li>
+                    <a href="" class="menu__item">Информация для рекламодателей</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content__welcome welcome">
+            <div class="container">
+                <div class="welcome__grid">
+                    <div class="welcome__info">
+                        <div class="welcome__title">Справочная система строительных ГОСТ-ов</div>
+                        <div class="welcome__subtitle">Электронная база актуальных <span>строительных ГОСТ-ов</span> с возможностью поиска и подбора правил
+                            <br> при помощи <span>фильтров</span></div>
+                        <a href="#" class="welcome_button">Перейти к фильтрам</a>
+                    </div>
+                    <div class="welcome__dino">
+                        <img src="../images/main/welcome/dino.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__functions functions">
+            <div class="container">
+
+                <div class="title">Функции сервиса</div>
+                <div class="functions__grid">
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-search.png" alt="" class="functions__image">
+                        <div class="functions__title">Поиск</div>
+                        <div class="functions__subtitle">Поиск по системе фильтрации, ключевым словам и названиям среди документов и внутри них</div>
+                    </div>
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-save.png" alt="" class="functions__image">
+                        <div class="functions__title">Сохранение</div>
+                        <div class="functions__subtitle">Возможность сохранения документов на личное устройство</div>
+                    </div>
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-create.png" alt="" class="functions__image">
+                        <div class="functions__title">Создать проект</div>
+                        <div class="functions__subtitle">Возможность создания папок с проектом и добавлением ГОСТ-ов по нему</div>
+                    </div>
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-share.png" alt="" class="functions__image">
+                        <div class="functions__title">Поделиться</div>
+                        <div class="functions__subtitle">Возможность поделиться ссылкой на документ</div>
+                    </div>
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-favorite.png" alt="" class="functions__image">
+                        <div class="functions__title">Избранное</div>
+                        <div class="functions__subtitle">Возможность добавить документ в избранное</div>
+                    </div>
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-bookmarks.png" alt="" class="functions__image">
+                        <div class="functions__title">Закладки</div>
+                        <div class="functions__subtitle">Возможность добавить документ в закладки для быстрого доступа</div>
+                    </div>
+                    <div class="functions__item">
+                        <img src="../images/main/functions/func-calc.png" alt="" class="functions__image">
+                        <div class="functions__title">Расчет</div>
+                        <div class="functions__subtitle">Предоставляется возможность поиска информации на основании прямого и обратного расчета, при использовании данных о площади здания/помещения и количеству человек, размещаемых в проектируемом здании</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__about about">
+            <div class="container">
+                <div class="title">О сервисе</div>
+                <div class="subtitle">Для тех, кому необходимо знать всё о строительных нормах, технических правилах и стандартах</div>
+                <div class="about__grid">
+                    <div class="about__info">
+                        <p class="about__text">Справочная электронная информационная система строительных ГОСТ-ов, созданная для упрощения поиска информации по нормативно-технической документации </p>
+                        <p class="about__text"><span>Поиск</span> информации осуществляется благодаря созданной <span>системе фильтраци</span> по типу здания, местоположению, а также при помощи ключевых слов, названию документа и номеру нормативно- техничского документа</p>
+                        <p class="about__text"><span>Сервис</span> также предоставляет возможность поиска информации на основании прямого и обратного расчетов.<br> Имея в исходных данных площадь здания/помещения и размещаемое проектное количество человек, вы можете получить систематизированную информацию о возможностях проектирования в данных исходных условиях</p>
+                    </div>
+                    <a href="#" class="about_button">Начать поиск</a>
+                </div>
+            </div>
+        </div>
+        <div class="content__advantages advantages">
+            <div class="container">
+                <div class="title">С нами выгодно</div>
+                <div class="advantages__flex">
+                    <p class="advantages__item">Поиск информации по базе НТД на основании прямого и обратного расчетов<span>по площади и количеству человек</span></p>
+                    <p class="advantages__item">Возможность создания закладок и примечаний как к отдельному документу, так и к папке проекта</p>
+                    <p class="advantages__item">Добавление <span>документа</span> в “Избранное”</p>
+                    <p class="advantages__item">Возможность делиться папками проектов и ссылками на отдельный документ</p>
+                    <p class="advantages__item">Автоматизированное обновление актуальности </p>
+                    <p class="advantages__item">Возможность сохранения документа на личное устройство</p>
+                    <p class="advantages__item">Удобство поиска и работы с НТД</p>
+                    <p class="advantages__item">Поиск как самого НТД, так и внутри НТД по фильтрам и ключевым словам</p>
+                    <p class="advantages__item">Возможность создания и добавления НТД в отдельную папку проекта</p>
+                    <p class="advantages__item">Экономия времени поиска информации по НТД</p>
+                    <p class="advantages__item">Уведомление об изменении статуса НТД</p>
+                </div>
+                <img src="../images/main/advantages/dino.png" alt="" class="advantages__dino">
+            </div>
+        </div>
+        <div class="content__guide guide">
+            <div class="container">
+                <div class="title">Как это работает?</div>
+                <div class="subtitle">Поиск НТД - проще, чем можно представить!</div>
+                <div class="guide__flex">
+                    <div class="guide__item">
+                        <img src="../images/main/guide/search.png" alt="">
+                        <p class="guide__text"><b>Пользуйся</b> сервисом поиска НТД по <b><span>фильтрам</span></b> и ключевым словам </p>
+                    </div>
+                    <div class="guide__item">
+                        <img src="../images/main/guide/register.png" alt="">
+                        <p class="guide__text"><b>Зарегистрируйся,</b> чтобы получить <b><span>бесплатный</span></b> доступ к расширенному пакету функций</p>
+                    </div>
+                    <div class="guide__item">
+                        <img src="../images/main/guide/salut.png" alt="">
+                        <p class="guide__text"><b>Ищи, сохраняй, делись, создавай!</b><br> Пользуйся <b><span>сервисом поиска НТД</span></b> и взаимодействуй с другими проектировщиками с помощью расширенного пакета опций и услуг </p>
+                    </div>
+                </div>
+                <a href="#" class="guide__button">Зарегистрироваться</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__flex">
+            <a href="" class="footer__link">Контакты</a>
+            <a href="" class="footer__link">Вход</a>
+            <a href="" class="footer__link">Регистрация</a>
+            <a href="" class="footer__link">О нас</a>
+            <a href="" class="footer__link">К фильтрам</a>
+            <a href="" class="footer__link">Обратная связь</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="../jquery.js"></script>
+<script src="../s.js"></script>
+</body>
+</html>

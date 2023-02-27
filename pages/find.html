@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/find/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__search search">
+                    <input type="text" class="search_input" placeholder="Название или номер ГОСТ-а">
+                    <a href="#" class="search_button">
+                        <img src="../images/main/header/searchicon.png" alt="" class="search__icon">
+                    </a>
+                </div>
+                <div class="header__buttons">
+                    <a href="#" class="header__register">Регистрация</a>
+                    <a href="#" class="header__auth">Войти</a>
+                </div>
+                <div class="header__authed authed">
+
+                    <div class="authed__profile">
+                        <a href="#" class="authed__image">
+                            <img src="../images/main/header/authed-profile.png" alt="">
+                        </a>
+                        <div class="authed__info">
+                            <div class="authed__name">Мохирева Арина Олеговна</div>
+                            <div class="authed__mail">mohireva.ao@edu.spbstu.ru</div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="authed__exit">
+                        <img src="../images/main/header/exit.png" alt="">
+                    </a>
+
+                </div>
+                <a href="#" class="header__profile">
+                    <img src="../images/main/header/profile.png" alt="" class="profile__icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="content__find">
+                <aside class="find__side-menu side-menu">
+                    <div class="side-menu__filters">
+                        <div class="side-menu__toc1">
+                            <p>Фильтры</p>
+                        </div>
+                        <p class="side-menu__title">Тип здания</p>
+                        <select class="side-menu__select">
+                            <option value="" disabled selected hidden>Выберите тип</option>
+                            <option value="1">Зеленый</option>
+                            <option value="2">Желтый</option>
+                        </select>
+                        <p class="side-menu__title">Местоположение</p>
+                        <select class="side-menu__select">
+                            <option value="" disabled selected hidden>Выберите тип</option>
+                            <option value="1">Зеленый</option>
+                            <option value="2">Желтый</option>
+                        </select>
+                    </div>
+                    <div class="side-menu__calculate">
+                        <div class="side-menu__toc2">Расчет</div>
+                        <p class="side-menu__title">Тип помещения:</p>
+                        <select class="side-menu__select">
+                            <option value="" disabled selected hidden>Выберите тип</option>
+                            <option value="1">Зеленый</option>
+                            <option value="2">Желтый</option>
+                        </select>
+                        <p class="side-menu__title">Прямой расчет:</p>
+                        <input type="text" class="side-menu__input">
+                        <a href="" class="side-menu__button">Расчитать</a>
+                        <p class="side-menu__text">Требуемая площадь: 52 кв.м.</p>
+                        <p class="side-menu__title">Обратный расчет:</p>
+                        <input type="text" class="side-menu__input">
+                        <a href="" class="side-menu__button">Расчитать</a>
+                        <p class="side-menu__text">Количество человек: 120 чел.</p>
+
+                        <p class="side-menu__title">Данные по местоположению:</p>
+                        <p class="side-menu__text">Снеговой район: I</p>
+                        <p class="side-menu__text">Ветровой район: II</p>
+
+                    </div>
+                    <div class="side-menu__bottom">
+                        <a href="" class="side-menu__save">Сохранить расчет</a>
+                        <a href="" class="side-menu__search">Поиск</a>
+                    </div>
+                </aside>
+                <div class="find__outcome outcome">
+                    <div class="outcome__search">
+                        <input placeholder="Поиск..." type="text" class="outcome__input">
+                        <a href="" class="outcome__search-button">
+                            <img src="../images/find/searchicon.png" alt="">
+                        </a>
+                    </div>
+                    <h1 class="outcome__title">Результаты поиска:</h1>
+                    <div class="outcome__item">
+                        <div class="outcome__info">
+                            <div class="outcome__doc">Свод правил СП 251.1325800.2016</div>
+                            <div class="outcome__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                            <div class="outcome__content">7.2.15.1 Вестибюль проектируется из расчета 0,2-0,3 м на одного посетителя. Число посетителей определяется общим числом обучающихся. Шириной вестибюля должно быть обеспечено беспрепятственное перемещение...</div>
+                        </div>
+                        <hr>
+                        <div class="outcome__buttons">
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/share.png" alt="">
+                            </a>
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/project.png" alt="">
+                            </a>
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/save.png" alt="">
+                            </a>
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/favorite.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="outcome__item">
+                        <div class="outcome__info">
+                            <div class="outcome__doc">Свод правил СП 251.1325800.2016</div>
+                            <div class="outcome__description">ЗДАНИЯ ОБЩЕОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ. ПРАВИЛА ПРОЕКТИРОВАНИЯ</div>
+                            <div class="outcome__content">7.2.15.1 Вестибюль проектируется из расчета 0,2-0,3 м на одного посетителя. Число посетителей определяется общим числом обучающихся. Шириной вестибюля должно быть обеспечено беспрепятственное перемещение...</div>
+                        </div>
+                        <hr>
+                        <div class="outcome__buttons">
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/share.png" alt="">
+                            </a>
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/project.png" alt="">
+                            </a>
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/save.png" alt="">
+                            </a>
+                            <a href="" class="outcome__button">
+                                <img src="../images/find/favorite.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__flex">
+            <a href="" class="footer__link">Контакты</a>
+            <a href="" class="footer__link">Вход</a>
+            <a href="" class="footer__link">Регистрация</a>
+            <a href="" class="footer__link">О нас</a>
+            <a href="" class="footer__link">К фильтрам</a>
+            <a href="" class="footer__link">Обратная связь</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
